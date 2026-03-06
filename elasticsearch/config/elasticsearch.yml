@@ -1,0 +1,16 @@
+cluster.name: ${CLUSTER_NAME}
+
+network.host: 0.0.0.0
+
+# Enable security features
+xpack.security.enabled: true
+xpack.security.enrollment.enabled: true
+
+xpack.security.http.ssl:
+  enabled: false
+
+xpack.security.transport.ssl:
+  enabled: false
+
+# Allow HTTP API connections from anywhere
+http.host: 0.0.0.0
