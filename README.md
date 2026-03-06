@@ -112,3 +112,9 @@ docker compose down -v
 
 - `.env` 파일의 비밀번호는 운영 환경에서 반드시 강력한 값으로 교체하세요.
 - Elasticsearch는 `single-node` 모드로 실행됩니다. 클러스터 구성이 필요한 경우 `docker-compose.yml`을 수정하세요.
+
+## NodePmisFront나 Back에서 사용시 (REST API 사용)
+- 공식 SDK 사용: @elastic/elasticsearch 설치 (권장)
+- REST 직접 호출: 이미 있는 axios로 POST /<index>/_doc, POST /_bulk 호출 (추가 패키지 불필요)
+
+## sample/sample.md 사용해서 테스트 해보세요~
