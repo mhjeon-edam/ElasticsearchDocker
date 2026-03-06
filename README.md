@@ -28,10 +28,10 @@ STACK_VERSION=8.12.2
 CLUSTER_NAME=es-cluster
 
 # elastic 유저 비밀번호 (반드시 변경하세요)
-ELASTIC_PASSWORD=changeme
+ELASTIC_PASSWORD=P@ssw0rd
 
 # kibana_system 유저 비밀번호 (반드시 변경하세요)
-KIBANA_PASSWORD=changeme
+KIBANA_PASSWORD=P@ssw0rd
 
 # Elasticsearch 포트
 ES_PORT=9200
